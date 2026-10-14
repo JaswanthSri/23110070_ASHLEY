@@ -14,6 +14,7 @@ def min_rooms(l):
     end=l[i+1]
     intervals:(end-start)/5
     room+=1
+  return room
 
 
 
@@ -33,4 +34,19 @@ def main():
     l.append(num)
   min_rooms(l)
 
+
+#Unit Test Cases:
+
+#Input: 4
+#0 30
+#5 10
+#15 20
+#20 25 
+#Output: 2
+
+#Input: 3
+#0 10
+#5 15
+#10 20 
+#Ouput: 2
   
